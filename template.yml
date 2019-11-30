@@ -19,7 +19,7 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: functions/get-index.handler
-      Runtime: nodejs6.10
+      Runtime: nodejs8.10
       CodeUri: /Users/yancui/SourceCode/Personal/big-mouth/.serverless/big-mouth.zip
       MemorySize: 128
       Timeout: 3
@@ -59,7 +59,7 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: functions/get-restaurants.handler
-      Runtime: nodejs6.10
+      Runtime: nodejs8.10
       CodeUri: /Users/yancui/SourceCode/Personal/big-mouth/.serverless/big-mouth.zip
       MemorySize: 128
       Timeout: 3
@@ -107,7 +107,7 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: functions/search-restaurants.handler
-      Runtime: nodejs6.10
+      Runtime: nodejs8.10
       CodeUri: /Users/yancui/SourceCode/Personal/big-mouth/.serverless/big-mouth.zip
       MemorySize: 128
       Timeout: 3
